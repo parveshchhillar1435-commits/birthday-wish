@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Best Friend</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <div class="card">
+    <h1>🎉 Happy Birthday, Sumit 🎂</h1>
+    <p class="line">Today is all about you.</p>
+
+    <p>
+      You are not just my best friend, you are my support system,
+      my happiness, and one of the best bro in my life.
+    </p>
+
+    <h2>💖 May your life be full of happiness, success and love.</h2>
+
+    <button onclick="showMessage()">Click for Surprise 🎁</button>
+
+    <p id="surprise"></p>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
